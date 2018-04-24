@@ -1,0 +1,10 @@
+a=input("enter a length")
+
+def prasanth(l,a):
+    words=[]
+    for j in l:
+        if(len(j)>=a):
+            words.append(j)
+    return words
+
+print(prasanth(["a","bb","cc","ccc","ddddd"],a))
